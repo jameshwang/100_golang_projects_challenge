@@ -7,3 +7,4 @@ Like `pry`?
 1. Why are the functions getting so long with all these `if err != nil` statements?
 Am I not breaking these logical parts out enough?  Should I be checking each err
 value or can I skip a few?
+1. Research these other libraries out there like gorilla
