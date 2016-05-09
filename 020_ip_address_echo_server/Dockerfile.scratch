@@ -1,0 +1,7 @@
+FROM scratch
+
+ADD echo-server /echo-server
+
+EXPOSE 8080
+
+CMD ["/echo-server"]

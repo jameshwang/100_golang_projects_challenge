@@ -1,0 +1,11 @@
+FROM golang:1.6.2-wheezy
+
+ADD Makefile /
+WORKDIR /
+RUN make setup
+
+COPY server.go /
+
+RUN make buildgo
+
+CMD ["/bin/bash"]
